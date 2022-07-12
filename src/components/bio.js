@@ -32,22 +32,29 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <StaticImage
-        className="bio-avatar"
-        layout="fixed"
-        formats={["auto", "webp", "avif"]}
-        src="../images/profile-pic.png"
-        width={50}
-        height={50}
-        quality={95}
-        alt="Profile picture"
-      />
+      
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          <div className="margin-20" 
+          data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300" 
+          data-sal-easing="ease">
+          I'm Jennifer, an electrical engineering sophomore trying to enjoy life despite stress. 
+          Aside from tech stuff, I like to read, write, discover cute coffee shops, and learn languages. 
+          One thing I love to do is staring at the sky while I walk, which, fortunately, has not ended in me tripping and breaking my legs - yet.
+          </div>
+          <div className="margin-20"
+          data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300" 
+          data-sal-easing="ease">
+          I've always loved writing, and this year (2022) I've decided to share some of my writing online. So welcome to my writing blog, where I post short stories, poems, and essays about random things.
+          </div>
+          <div className="margin-20"
+          data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300" 
+          data-sal-easing="ease">
+          I'm also hoping to write more in Chinese (I'm Taiwanese, born and raised, btw), so hopefully there will be some of that here, although they will most likely be edited versions of my diary entries instead of well-planned essays. Have fun reading!
+          </div>
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-            You should follow them on Twitter
+          <a href="https://twitter.com/404">
+            You should definitely not follow me on Twitter
           </a>
         </p>
       )}

@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Blue Elephants | 嶼絢`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jennifer`,
+      summary: `, an electrical engineering sophomore trying to enjoy life despite stress. 
+      Aside from tech stuff, I like to read, write, discover cute coffee shops, and learn languages. One thing I love to do is stare at the sky while I walk, which, fortunately, has not ended in me tripping and breaking my legs - yet.\n
+      I've always loved writing, and although I feel very shy sharing my writing with people I know, I'm somehow ok with doing so with strangers over the internet. So welcome to my writing blog, where I post short stories, poems, and essays about random things.\n
+      I'm also hoping to write more in Chinese (I'm Taiwanese, born and raised, btw), so hopefully there will be some of that here, although they will most likely be edited versions of my diary entries instead of well-planned essays.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -125,6 +128,8 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-scroll-reveal`,
+    
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

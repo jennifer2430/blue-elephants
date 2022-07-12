@@ -54,7 +54,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary:#356676;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -75,12 +75,19 @@ html {
   font-size: var(--fontSize-root);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: left;
+  display: block;
 }
 
 body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  display:block;
+  margin:auto;
+  margin-top: 40px;
+  margin-left:20px;
+  max-width: 1000px;
 }
 
 footer {
@@ -101,7 +108,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-heading);
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-6);
   line-height: var(--lineHeight-tight);
@@ -114,13 +121,14 @@ h4,
 h5,
 h6 {
   font-weight: var(--fontWeight-bold);
-  color: var(--color-heading);
+  color: #7c86a1;
 }
 
 h1 {
   font-weight: var(--fontWeight-black);
   font-size: var(--fontSize-6);
   color: var(--color-heading-black);
+  color: #356676;
 }
 
 h2 {
@@ -251,7 +259,7 @@ a:focus {
 }
 
 .global-header {
-  margin-bottom: var(--spacing-12);
+  margin-bottom: var(--spacing-8);
 }
 
 .main-heading {
@@ -266,6 +274,7 @@ a:focus {
 
 .post-list-item p {
   margin-bottom: var(--spacing-0);
+  font-size: var(--fontSize-0);
 }
 
 .post-list-item h2 {
@@ -281,9 +290,9 @@ a:focus {
 
 .header-link-home {
   font-weight: var(--fontWeight-bold);
-  font-family: var(--font-heading);
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-decoration: none;
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-5);
 }
 
 .bio {
@@ -318,6 +327,41 @@ a:focus {
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
+
+/* Mine */
+.margin-20 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.nav-link-item {
+  padding-right: 2rem;
+}
+
+.nav-link-text {
+  color:#356676;
+  text-decoration: none;
+}
+
+.blog-intro-div {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.language-text {
+  line-height: var(--lineHeight-relaxed);
+  --baseline-multiplier: 0.179;
+  --x-height-multiplier: 0.35;
+  margin: var(--spacing-0) var(--spacing-0) var(--spacing-8) var(--spacing-0);
+  padding: var(--spacing-0); 
+}
+
 
 /* Media queries */
 
