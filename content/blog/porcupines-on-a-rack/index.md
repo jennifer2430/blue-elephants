@@ -2,6 +2,7 @@
 title: Porcupines on a Rack
 date: "2021-02-19T22:12:03.284Z"
 description: "Written during creativity week in senior year. I had this super cute porcupine sticker whose color was starting to fade and a coffee addiction."
+language: "English"
 ---
 A plastic rack stood lonely between the magazine stands and notebook stacks. My footsteps echoed, disturbing sleeping layers of dust.
 

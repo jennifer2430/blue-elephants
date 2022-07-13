@@ -2,6 +2,7 @@
 title: Keep an Outsider's Diary
 date: "2021-10-12T22:12:03.284Z"
 description: "Another essay written for Professor Nathan Dueuel's EngComp3 class. I get really anxious when I go out with a huge group of people I don't feel comfortable with, and I decided to write something about the experience. They're not bad people, it's just."
+language: English
 ---
 8/20/2021 Fri.
 

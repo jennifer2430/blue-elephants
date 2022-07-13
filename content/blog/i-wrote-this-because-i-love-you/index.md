@@ -2,6 +2,7 @@
 title: I Wrote This because I Love You
 date: "2022-06-10T22:12:03.284Z"
 description: "Yeah, I know, the title is sorta cringe. Written the night before flying home for summer, the first half by Janss Steps and the second half in Night Powell. It got too cold :("
+language: "English"
 ---
 I’ll start with the lady sitting beside me on my flight to Newark. Her acrylic nails pressed tightly against her phone as she spoke, voice steady but stretched thin. She dabbed at her eyes, and that’s when I realized she was crying. Should I have offered her a piece of tissue? I pulled out a pack of alcohol wipes instead and scrubbed at my seat handle, once, twice, thrice, as if that could stop me from being uprooted, strands of me still clinging to Canadian soil, and tossed into a hastily dug hole on the other side of the border. 
 

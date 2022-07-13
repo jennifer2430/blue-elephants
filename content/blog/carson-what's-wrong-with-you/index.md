@@ -1,7 +1,8 @@
 ---
 title: Carson, What's Wrong with You?
 date: "2022-06-02T23:46:37.121Z"
-description: An attempted parady of an unhealthy relationship, inspired by all the pain my OPS capstone project brought me. Dedicated to my project leads and all nice IEEE people.
+description: "An attempted parady of an unhealthy relationship, inspired by all the pain my OPS capstone project brought me. Dedicated to my project leads and all nice IEEE people."
+language: "English"
 ---
 Carson, what’s wrong with you? I brought you to life, I soldered wires to your motors, but then you snapped your copper pieces. Your wires now hang, a noose around your broken neck, you know you can talk to me about anything, right? 
 

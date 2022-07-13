@@ -2,6 +2,7 @@
 title: Covid Mints
 date: "2022-05-30T22:40:32.169Z"
 description: These covid mints are like, well, actual candy/mints.
+language: "English"
 ---
 The covid self-test kit got stuck in the Haines vending machine. I crouched down, the hems of my blue skirt brushing against autumn leaves on the ground, as if making eye contact with a plastic bag could somehow coax it out of its home. 
 

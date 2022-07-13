@@ -2,6 +2,7 @@
 title: The Girl Who Cried Wolf
 date: "2021-11-02T22:12:03.284Z"
 description: "Yet another mini-essay, this time answering the prompt Tell Us a Good Story. It's inspired by my friend's real encounter with a wolf and is a nostalgic recount of the good ol Pearson days"
+language: "English"
 ---
 It’s a secret that only belonged to us, the observatory on top of the hill, but now I’m sharing it with you. If you leave the Maxbell through the half-cracked window behind where Ricky always sits and tread carefully through a trail of broken branches and fallen pine cones, climb up the creaking wooden stairs and then tiptoe past the abandoned picnic table, you will see the observatory. 
 

@@ -2,6 +2,7 @@
 title: Why Are You Here?
 date: "2021-09-21T22:12:03.284Z"
 description: "A mini-essay written for Professor Nathan Dueul's Fall 22 EngComp 3 class, where I briefly ponder why I'm alive."
+language: "English"
 ---
 Thirty seconds in the squeaky elevator of Young library, the jolt in my stomach as the elevator comes to a panting, wheezing stop. Fifty steps past the Arabic section, thirty steps past unoccupied cubicles. A piece of yellow gum that’s older than me stuck on the age-torn notice on my desk, graffiti praising the Romans and denouncing the Greeks, and roofs of UCLA halls outside of fifth floor musty windows. 
 
