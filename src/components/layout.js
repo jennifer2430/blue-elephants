@@ -4,8 +4,10 @@ import { Link } from "gatsby"
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const blogPath = `${__PATH_PREFIX__}/writing`
+  const chiBlogPath = `${__PATH_PREFIX__}/writing-man`
   const isRootPath = location.pathname === rootPath
   const isBlogPath = location.pathname === blogPath
+  const isChiBlogPath = location.pathname === chiBlogPath
   let header
 
   if (isRootPath) {
@@ -34,6 +36,26 @@ const Layout = ({ location, title, children }) => {
       </div>
     )
   }
+  else if (isChiBlogPath)
+  {
+    header = (
+      <div className="blog-intro-div" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300" 
+      data-sal-easing="ease">
+    <h1>
+      大抵是關於絢爛島嶼的文字
+    </h1>
+    <p>
+      This is me clinging onto my language, my culture, my childhood, my identity. 
+    </p>
+    <p>
+      When written out it sounds very cliche, but it's scary to watch yourself forget how to write characters or struggle to articulate thoughts in a language you've spoken for your whole life. And sad when you make byelingual jokes to shrug it off as if it didn't sting.
+    </p>
+    <p>
+      Will mostly be pieces of my childhood I think, I might also post English versions but I'm not sure.
+    </p>
+  </div> 
+    )
+  }  
   else {
     header = null
   }
@@ -50,6 +72,9 @@ const Layout = ({ location, title, children }) => {
           <li className="nav-link-item">
             <Link to="/writing" className="nav-link-text">writing</Link>
             </li>
+          <li className="nav-link-item">
+            <Link to="/writing-man" className="nav-link-text">寫作</Link>
+          </li>
         </ul>
       </nav>
       <header className="global-header">{header}</header> 
