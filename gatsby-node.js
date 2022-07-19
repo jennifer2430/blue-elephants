@@ -6,6 +6,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   // Define a template for blog post
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const chineseBlogPost = path.resolve(`./src/templates/blog-post-chinese.js`)
 
   // Get all markdown blog posts sorted by date
   const result = await graphql(
@@ -14,6 +15,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         allMarkdownRemark(
           sort: { fields: [frontmatter___date], order: ASC }
           limit: 1000
+          filter: {frontmatter: {language: {eq: "English"}}}
         ) {
           nodes {
             id
@@ -36,6 +38,35 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
 
   const posts = result.data.allMarkdownRemark.nodes
 
+
+  const resultChin = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          sort: { fields: [frontmatter___date], order: ASC }
+          limit: 1000
+          filter: {frontmatter: {language: {eq: "Chinese"}}}
+        ) {
+          nodes {
+            id
+            fields {
+              slug
+            }
+          }
+        }
+      }
+    `
+  )
+
+  if (result.errors) {
+    reporter.panicOnBuild(
+      `There was an error loading your blog posts`,
+      result.errors
+    )
+    return
+  }
+
+  const postChin = resultChin.data.allMarkdownRemark.nodes
   // Create blog posts pages
   // But only if there's at least one markdown file found at "content/blog" (defined in gatsby-config.js)
   // `context` is available in the template as a prop and as a variable in GraphQL
@@ -48,6 +79,23 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       createPage({
         path: post.fields.slug,
         component: blogPost,
+        context: {
+          id: post.id,
+          previousPostId,
+          nextPostId,
+        },
+      })
+    })
+  }
+
+ if (postChin.length > 0) {
+    postChin.forEach((post, index) => {
+      const previousPostId = index === 0 ? null : postChin[index - 1].id
+      const nextPostId = index === postChin.length - 1 ? null : postChin[index + 1].id
+
+      createPage({
+        path: post.fields.slug,
+        component: chineseBlogPost,
         context: {
           id: post.id,
           previousPostId,
