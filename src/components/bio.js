@@ -50,7 +50,7 @@ const Bio = () => {
           <div className="margin-20"
           data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300" 
           data-sal-easing="ease">
-          I'm also hoping to write more in Chinese (I'm Taiwanese, born and raised, btw), so hopefully there will be some of that here, although they will most likely be edited versions of my diary entries instead of well-planned essays. Have fun reading!
+          I'm also hoping to write more in Chinese (I'm Taiwanese, born and raised), so hopefully there will be some of that here, although they will most likely be edited versions of my diary entries instead of well-planned essays. Have fun reading!
           </div>
           {` `}
           <a href="https://twitter.com/404">

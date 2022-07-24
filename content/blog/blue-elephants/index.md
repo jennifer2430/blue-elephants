@@ -28,4 +28,4 @@ I used to weigh three sentences, and now I only weigh one. If I get any heavier,
 
 When I returned last summer, I was surprised to see how much shabbier she looked. The round part of her belly looked more dark green than blue; her fingertips were no longer snow white. I know most people my age no longer keep stuffed animals, and if they do, they don’t carry the same weight as she does for me. But for some reason, I still refuse to move on, so I tucked her back into the closet when I left last fall, and so will I this year. 
 
-Maybe one day, in an alternate universe where I don’t lift my head and marvel at how beautiful the moon is, I’ll exit my room through the window while the door remains slightly ajar. And perhaps then, as you see the wind tiptoe in and read to you the last chapter of my unfinished book, we’ll finally have the courage to acknowledge, the blue elephant in my room.
+Maybe one day, in an alternate universe where I don’t lift my head and marvel at how beautiful the moon is, I’ll exit my room through the window while the door remains slightly ajar, just enough for you to see, the blue elephant in my room.

@@ -31,7 +31,7 @@ const Layout = ({ location, title, children }) => {
           you know, sometimes i read a piece of writing and think damn i could be best friends with this author or damn this person just put into words some feeling i've never been able to describe. that's the kind of writer i aspire to be. 
         </p>
         <p>
-          i hope you find peace here.
+          i hope you find something interesting here.
         </p>
       </div>
     )
@@ -42,7 +42,7 @@ const Layout = ({ location, title, children }) => {
       <div className="blog-intro-div" data-sal="slide-up" data-sal-duration="2000" data-sal-delay="300" 
       data-sal-easing="ease">
     <h1>
-      大抵是關於絢爛島嶼的文字
+      嶼絢
     </h1>
     <p>
       This is me clinging onto my language, my culture, my childhood, my identity. 
@@ -84,6 +84,8 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
         <div>No elephants were harmed in the process</div>
+        <div className="buy-me-coffee">if you like my writing and if you really really want to, you can buy me a coffee 
+        <a href="https://www.buymeacoffee.com/blueelephants"> here</a></div>
       </footer>
     </div>
   )
