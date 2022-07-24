@@ -1,1 +1,1 @@
-Writing portfolio created using a [gatsby template] (https://github.com/gatsbyjs/gatsby-starter-blog) 
+Writing portfolio created using a [gatsby template](https://github.com/gatsbyjs/gatsby-starter-blog) 
